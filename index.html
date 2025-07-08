@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Обо мне:</title>
+	<style>
+		* {box-sizing: border-box;
+			font-family: 'Courier New', 
+			cursive, sans-serif;
+		}
+		body {
+			background-color: #FFB3C5;
+			padding: 20px;
+			margin:0;
+			color: #FFF;
+		}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #FFC6D3;
+	padding: 25px;
+	border-radius: 25px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.avatar {
+	width: 300px;
+	height:300px;
+	border-radius: 50%;
+	border:5px solid #fff;
+	margin:0 auto 20px;
+	display: block;
+	background-color: #fff;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+
+}
+@media(max-width: 600px) {
+	.avatar {
+		width: 150px ;
+		height: 150px;
+}
+;}
+
+
+h1{
+	color: #fff;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+}
+section {
+margin-bottom: 30px;
+padding: 20px;
+border-radius: 10px;
+background: #FFDBE4;
+}
+h2{
+color: #FFC6D3;
+border-bottom: 3px dashed #B3DFFF;
+padding-bottom: 10px;
+font-size: 2em;
+}
+.hobby ul{
+	list-style-type:'✮ ';
+	padding-left: 25px;
+}
+.hobby li {
+margin-bottom: 10px;
+font-size: 1.1em;
+}
+.social-link {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+.social-link a {
+	display: inline-block;
+	padding: 12px 25px;
+	background-color: #fff;
+	color: #B3DFFF;
+	text-decoration: none;
+	border-radius: 10px;
+	font-weight: bold;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.10);
+	transition: all 0.3s ease;
+}
+.social-link a:hover {
+	background-color: #92D194;
+	transform: translateY(-3px);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+footer {
+	text-align: center;
+	margin-top: 30px;
+	color: #FFF2F6;
+	font-style: italic;
+}
+
+	</style>
+
+
+
+
+</head>
+<body>
+<div class="container">
+	<header>
+		<img src="Аватар.png" alt=""class="avatar">
+	<h1>Я Алиса.</h1>	
+	</header>
+	<section class="about">
+		<h2>Обо мне</h2>
+		<p>Я учусь в пятом (а, ой, уже в шестом) "Б" классе гимназии имени А. С. Пушкина. Живу в Сыктывкаре, от него до Москвы часов шестнадцать. Учусь вроде ок, но хочу спать. Хорошо что сейчас лето. Но надо читать литературу которую задали. Я не осилила ещё даже первую книгу, хотя читаю довольно быстро, особенно про себя. Пару лет назад у меня был рекорд вслух 142 слова за минуту (42 братуха).</p>
+	</section>
+<section class="hobby">
+	<h2>Мои хобби</h2>
+	<ul>
+		<li>Рисование (особенно на графическом планшете, хотя и на бумаге хорошо получается)</li>
+		<li>Чтение книг (только не классика!1!)</li>
+		<li>Компьютерные игры (визуальные новеллы и платформеры это прекрасно)</li>
+		<li>Спорт (плавание и бадминтон)</li>
+		<li>Собирание пазлов (особенно МЕГА сложных с разной формой на 1000 деталек)</li>
+		<li>Просмотр аниме (Да)</li>
+		<li>Изобретение каких-то хитроумных механизмов которые захватят мир</li>
+	</ul>
+	<section class="social">
+		<h2>Я в соцсетях:</h2>
+		<div class="social-link">
+	<a href="#">ВКонтакте</a>
+	<a href="#">Discord</a>
+	<a href="#">Telegram</a>
+		</div>
+	</section>
+	<footer>
+		Создано на первом занятии Web-мастеринг
+	</footer>
+</section>
+</div>
+</body>
+</html>
